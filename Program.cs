@@ -10,7 +10,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            TriangularNumber.Get(10);
+            LargeSum.Get();
         }
     }
 }

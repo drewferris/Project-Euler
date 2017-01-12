@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,6 +48,7 @@
     <Compile Include="LargestPalNum.cs" />
     <Compile Include="LargestProductInGrid.cs" />
     <Compile Include="LargestProductInSeries.cs" />
+    <Compile Include="LargeSum.cs" />
     <Compile Include="Mtf.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
