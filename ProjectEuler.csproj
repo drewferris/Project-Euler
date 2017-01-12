@@ -49,6 +49,7 @@
     <Compile Include="LargestProductInGrid.cs" />
     <Compile Include="LargestProductInSeries.cs" />
     <Compile Include="LargeSum.cs" />
+    <Compile Include="LongCollatz.cs" />
     <Compile Include="Mtf.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
