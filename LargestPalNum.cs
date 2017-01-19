@@ -32,7 +32,7 @@ namespace ProjectEuler {
 
         //optimized solution
 
-        private static int makePalindrome(int firstHalf) {
+        private static int MakePalindrome(int firstHalf) {
             char[] reversed = firstHalf.ToString().Reverse().ToArray();
             return Convert.ToInt32(firstHalf + new string(reversed));
         }
@@ -43,7 +43,7 @@ namespace ProjectEuler {
 
             while(true) {
                 firstHalf--;
-                palin = makePalindrome(firstHalf);
+                palin = MakePalindrome(firstHalf);
                 for (int i = 999; i > 99; i--) {
                     if((palin/i) > 999 || i * i < palin) break;
 
@@ -54,7 +54,6 @@ namespace ProjectEuler {
                     }
                 }
             }
-            return firstHalf;
         }
 
     }

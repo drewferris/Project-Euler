@@ -10,7 +10,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-            LongCollatz.Get();
+            LatticePaths.GetPaths();
         }
     }
 }

@@ -15,14 +15,14 @@ namespace ProjectEuler {
             var a = 15 & 10;
             var b = 12 & 9;
 
-            var c = 15 | 10;
-            var d = 12 | 9;
+            //var c = 15 | 10;
+            //var d = 12 | 9;
 
             var e = 15 ^ 10;
             var f = 12 ^ 9;
 
             var g = 15 << 2;
-            var h = 10 << 2;
+            //var h = 10 << 2;
 
 
             //set bit at said index to value
