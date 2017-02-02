@@ -10,7 +10,7 @@ namespace ProjectEuler
     {
         static void Main(string[] args)
         {
-           var m = MaxPathSum.Get();
+           var m = NamesScores.Get();
         }
     }
 }
