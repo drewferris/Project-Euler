@@ -51,7 +51,10 @@
     <Compile Include="LargeSum.cs" />
     <Compile Include="LatticePaths.cs" />
     <Compile Include="LongCollatz.cs" />
+    <Compile Include="MaxPathSum.cs" />
     <Compile Include="Mtf.cs" />
+    <Compile Include="NumberLetterCounts.cs" />
+    <Compile Include="PowerDigitSum.cs" />
     <Compile Include="Prime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

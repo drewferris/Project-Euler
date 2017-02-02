@@ -26,5 +26,18 @@ namespace ProjectEuler {
             }
             Console.WriteLine(g[0,0]);
         }
+
+        //combinatorics method
+        public static void GetPathsCom() {
+            const int gs = 20;
+            long ps = 1;
+
+            for (int i = 0; i < gs; i++) {
+                ps *= (2 * gs) - i;
+                ps /= i + 1;
+            }
+
+            Console.WriteLine(ps);
+        }
     }
 }
